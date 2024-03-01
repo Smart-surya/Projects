@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html data-bs-theme="dark">
+<head>
+  <title>Nature.com</title>
+  <link rel="stylesheet" type="text/css"href="nature.css">
+  <link rel="icon" href="i2.jpeg">
+  <script src="https://fontawesome.com/icons"></script>
+  <script src="nature.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <style>
+  .c1 i{
+   float: left;
+   background-color: white;
+   box-shadow: 0 0 10px black;
+   padding: 3px;
+   border: 1px double white;
+   border-radius: 15px;
+   margin-left: 10px;
+   margin-top: 21px;
+  }
+  .side ul li a{
+    color: white;
+  }
+  .side ul li{
+    
+    float: left;
+    margin-left: -5px;
+  }
+  .fa-brands fa-square-whatsapp{
+     width: 30px;
+     height: 30px;
+    font-size:70px;
+  }
+ </style>
+</head>
+<body>
+
+  <header class="c1"><i class="fa-solid fa-leaf"style="font-size:30px;"></i><h1>greenglobe.ltd</h1></header>
+  <div class="side">
+  <div class="user">
+    <p style="color:white;font-size: 15px;padding-left:3px ;">welcome back !</p>
+ 
+  <img src="joker.jpg" class="ig">
+  <p id="sname" style="color:white;border-radius:8px; border: 1.5px black solid; font-size: 16px;text-shadow:2 2 10px black ; margin-left:53px ; padding: 3px 8px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"></p>
+ 
+ <div>
+ <script>
+  var uname=prompt("whats your name");
+  var ename=uname.toUpperCase();
+  document.getElementById("sname").innerHTML=ename;
+  </script>
+   </div>
+  </div>
+  <h3>Contact us</h3>
+  <ul>
+  <li><i class="fa-brands fa-square-whatsapp" style="margin:auto;font-size: 25px;"></i><a href="www.whatsapp.com">whatsapp</a></li>
+  <li><i class="fa-brands fa-square-instagram" style="margin:auto;font-size: 25px;"></i>
+    <a href="www.instagram.com" >instagram</a></li>
+  <li><i class="fa-brands fa-square-twitter"style="margin:auto;font-size:25px;"></i><a href="www.twitter.com">twitter</a></li>
+  <li><i class="fa-brands fa-facebook" style="margin:auto;font-size:25px;"></i><a href="www.facebook.com">facebook</a></li>
+  <li><i class="fa-brands fa-youtube" style="margin:auto;font-size:25px;"></i><a href="www.youtube.com">youtube</a></li>
+</ul>
+  </div>
+   <nav class="c3">
+    <ul >
+      <li ><a>home</a>
+        <!--<ul class="home">
+          <li><a href="www">data</a></li>
+          <li><a href="www">cache</a></li>
+          <li><a href="www">settings</a></li>
+        </ul>-->
+      </li>
+      <li><a href="www" target="_blank">beauty</a></li>
+      <li><a href="www" target="_blank">globe</a></li>
+      <li><a href="www" target="_blank">green</a></li>
+      <li><a href="www" target="_blank">garden</a></li>
+      <li><a onclick="window.print()">print</a></li>
+      
+    </ul>
+  </nav>
+  <hr>
+ 
+  <section class="c2" style="text-align: center;">
+  <div class="h2">
+   Beauty Of Nature
+  </div>
+    <p>nature is a god gifted thing that ,Nature is the ultimate source of our living. Both living and non-living things include nature, and everyone is interdependent, which helps maintain the ecosystem. Plants, animals, and humans all depend on nature for their survival. It supplies oxygen, sunlight, soil, water, and other necessary components.</p>
+  </section>
+    <form action="https://api.web3forms.com/submit" method="POST"  class="c6" id="form">
+      <h1>login below</h1><br><div>
+        <input type="hidden" name="access_key" value="95764bc5-f9d1-4f0d-b075-89b41d61eb17">
+      <label><h2>Name</h2></label>
+      <input type="text" id="name" name="name" placeholder="enter name" required><br><br>
+      <span id="nameerror" style="color: red;"></span></div>
+      <div>
+        <label><h2>Email</h2></label>
+        <input type="email" id="email" name="mail id" placeholder="enter mail" required><br><br>
+      <span style="color: red;" id="emailerror">
+      </div>
+      
+      <div><label><h2>Password</h2></label>
+        <input type="password"id="pass" name="message"  placeholder="password" required></span><i class="fa-regular fa-eye" id="show" onclick="hide()"></i>
+        <i class="fa-solid fa-eye-slash"id="hide" onclick="show()"></i><br><br>
+        <span id="passworderror" style="color: red;"></span>    
+
+        </div>        
+        
+        <div style="display: flex;justify-content: center;">
+          <input type="checkbox" name="" id="tc" required><h2 style="border-radius:25% ;bottom:15%;font-size: 11px;color:white;">Terms&Conditions</h2>
+      <br>
+        <input type="submit" value="login" id="button" style="width:180px;margin-bottom:-15.5px ;right:28.5%;bottom:-9%;margin-left:-15px;color:white; background-color: lightseagreen;"><br>     
+        
+      </div>
+
+      </form>
+  <br>
+  <div class="c4">
+    <button type="button" value="JOIN"><a href="newweb.html">JOIN</a></button>
+    <button type="button" value="EXPLORE"><a href="www">EXPLORE </a></button>
+    <button type="button" value="MORE"><a href="www">SEEMORE</a></button>
+  </div>
+  <hr >
+  <footer class="foot">Copyrights &copy2023 | created by Smart_Surya | Contact us</footer>
+
+</body>
+</html>
