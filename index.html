@@ -31,6 +31,337 @@
      height: 30px;
     font-size:70px;
   }
+   //new
+   
+body{
+  width:100%;
+  height: 100%;
+  font-family: sans-serif;
+  background-image: url('nature.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  animation: back 3s linear infinite;
+  background-size: 110% 110%;
+}
+@keyframes back{
+    
+}
+.c1 h1{
+  color:black;
+  text-transform: uppercase;
+}
+.c1 {
+  box-shadow: 0 0 10px cyan,0 0 20px cyan, 0 0 30px darkcyan;
+  color:black;
+  text-align: center;
+  background: lightseagreen;
+  margin: 0px 20px;
+  padding-left:30px;
+  padding-right:30px;
+  padding-top: -10px;
+  border:3px white solid;
+  border-radius: 15px;
+  background: linear-gradient(to bottom right,whitesmoke,lightseagreen,rgb(13, 77, 73),rgba(0, 0, 0, 0.136));
+  background-size: 300% 300%;
+  animation: animate 5s ease-in-out infinite;
+}
+@keyframes animate{
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 50% 100%;
+  }
+  100%{
+    background-position: 50% 0;
+  }
+}
+.c2{
+  margin:25px;
+  border-radius: 10px;
+  color:white;
+  text-align: center;
+}
+.c3{
+  gap: 0;
+}
+.c3 ul,a{
+  background: lightseagreen;
+  margin-left: 24px;
+  margin-right: 24px;
+  padding: 5px 20px;
+  border-radius: 5px;
+  color:#36454f;
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  word-spacing: 10px;
+}
+.c3 a:hover{
+  color: white;
+}
+
+.c3 li{
+  margin:-10px;
+  padding: -5px solid;
+  display: inline;
+}
+.c3 li:hover{
+  box-shadow: 0 0 2px white,0 0 5px white;
+  
+}
+.c4{
+  text-align: center;
+}
+.c4 button{
+  box-shadow: 0 0 5px white,0 0 10px white;
+  font: 30px;
+  margin:10px;
+  border:2px black solid;
+  border-radius: 10px;
+}
+.c4 button:hover{
+  transition: 0.5s;
+  box-shadow: 0 0 5px white,0 0 10px white,0 0 15px white,0 0 30px white;
+  background: lightseagreen;
+}
+.c4 a{
+  background: none;
+}
+.foot{
+  color:lightcyan;
+  text-align: center;
+  border-radius: 15px;
+}
+.c5{
+  
+  color:lightcyan;
+  text-align: center;
+  border-radius: 15px;
+}
+.c6{
+  line-height: 0.5em;
+  text-align: center;
+}
+.c6 input{
+  box-shadow: 0 0 25px white;
+  text-align: center;
+  background-color:transparent;
+  border:2px white solid;
+  border-radius: 8px;
+  margin:0px 5px;
+}
+.c6 input:hover{
+  background: whitesmoke;
+}
+.c6 h2,h1{
+  color:lightseagreen;
+  display: block;
+}
+.home{
+  background: lightseagreen;
+  list-style: none;
+  display:none;
+}
+.c3 li:nth-child(1):hover .home {
+  transform:translatey(70px); 
+  padding: -25px;
+  display:block;
+  display: block;
+  box-sizing: border-box;
+}
+
+.pass{
+  position: relative;
+}
+.button{
+  font: 25px;
+  background: lightgreen;
+  border: 3px grey;
+  border-radius: 8px;
+  position: absolute;
+  right: 125px;
+  border: 2px white solid;
+  cursor: pointer;
+}
+.button:hover{
+  color:white;
+  background:lightseagreen;
+}
+.h2{
+  text-decoration: underline;
+  line-height: 2em;
+}
+.c3{
+  margin-left: 25px;
+}
+
+.side{
+  width:65px;
+  left: 0px;
+  top: 100px;
+  border-top-right-radius: 10px;
+  height:100vh;
+  position: fixed;
+  display: flex;
+  backdrop-filter: blur(5px);
+  overflow: hidden;
+  transition: width 0.7s;
+}
+#sname{
+  top: 45px;
+  position: absolute;
+}
+
+.ig
+{
+  padding-left: -20px;
+  border:2px solid white ;
+  width:45px;
+  height:50px ;
+  border-radius: 50%; 
+  position: relative;
+}
+.user div{
+  display: none;
+  border: 1px black solid;
+  text-align: center;
+  border-radius: 15px;
+  margin: 5px;
+}
+h3{
+  display: none;
+}
+.side:hover h3{
+  text-align: center;
+  display: block;
+}
+ .side ul li {
+  display:flex;
+  margin-bottom:20px; 
+  list-style: none;
+}
+.side:hover .user div{
+  display: block;
+}
+.side:hover{
+  display: block;
+  width: 190px;
+}
+.side:hover p{
+  display: block;
+}
+.user p{
+  display: none;
+  font-size: 15px;
+}
+.nextpage{
+  margin-left: 500px;
+  margin-right: 500px;
+  
+  color:white;
+  font: 8px;
+  background: black;
+}
+.button{
+  bottom: -35.5px;
+}
+.button:hover{
+  color: lightseagreen;
+  background-color: black;
+}
+@media(max-width:600px){
+  .c5{
+    font-size: 10px;
+  }
+  .button{
+   margin-bottom:50px ; 
+  margin-left: 15px;
+  
+  }
+  
+}
+/*.home li{position: absolute;}*/
+
+@media(min-width:600px){
+  .c1 i{
+    margin-left:200px;
+    
+   }
+  .c5{
+    font-size: 15px;
+  }
+  .button{
+    right: 530px;
+    padding: 5px 3px;
+    border-radius: 15px;
+    bottom: 50px;
+    margin-left: 8px;
+  }
+  .c6 input{
+    padding: 5px 30px;
+    border-radius: 15px;
+  }
+  .user ul li{
+    color: #36454f;
+  }
+  
+}
+.show{
+  right: 10%;
+}
+@media(max-width:600px){
+  #show{
+  color:black;
+  font-size: 12px;
+  position: absolute;
+  display: none;
+  top: 621px;
+  margin-right: -405px;
+  bottom: 14.1px;
+  }
+
+#hide{
+  color:black;
+  font-size: 12px;
+  position: absolute;
+  top: 621px; 
+  margin-right: -405px; 
+  bottom: 14.1px;
+  display: block;
+ }
+.c3{
+  gap: -5px;
+ }
+}
+@media(min-width:400px){
+  #hide{
+    right:556.5px;
+    bottom:95px;
+    position: absolute;
+    font-size: 16px;
+  }
+  #show{
+    right:556.5px;
+    bottom:95px;
+    position: absolute;
+    font-size: 16px;
+  }
+  #tc{
+    z-index: -1;
+    margin-right: 5px;
+  }
+  #button{
+    width:5px;
+    height: 26px;
+    padding-left: -150px;
+    padding-right: -150px;
+    margin-bottom: 5px;
+    margin-right: 52px;
+  }
+}
+
  </style>
 </head>
 <body>
